@@ -1,0 +1,31 @@
+{
+    "name": "rialic/starter-kit",
+    "description": "Laravel wrapper packge with Repository Pattern, Service Layer Pattern and custom log configuration",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rhooiali Cândido",
+            "email": "rhiali_cs@hotmail.com"
+        }
+    ],
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rialic\\StarterKit\\": "src/"
+        }
+    },
+    "extra" : {
+        "laravel" : {
+            "providers" : [
+                "Rialic\\StarterKit\\Providers\\StarterKitServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "illuminate/support": "^11.36",
+        "php": "^8.3"
+    }
+}
