@@ -26,6 +26,6 @@
     },
     "require": {
         "illuminate/support": "^11.36",
-        "php": "^8.3"
+        "php": "^8.2"
     }
 }
